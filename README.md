@@ -27,10 +27,23 @@ git push #上传本地仓库到远程仓库
 #add locate project to remote git
 git init
 
-git add .
+git add .   #添加所有
 
 git commit -m "add current folder[children folder]"
 
 git remote add origin git@github.com:qingyin/XX.git
 
 git push -u origin master
+
+#commit
+git commit -a -m "提交的描述信息"  #只将所有被修改或者已删除的且已经被git管理的文档提交倒仓库中
+
+
+Git常用命令清单 [http://blog.csdn.net/shimazhuge/article/details/52759429]
+Git认识 [http://blog.csdn.net/shimazhuge/article/details/52192967]
+
+
+
+
+
+

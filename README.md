@@ -24,3 +24,9 @@ git commit -v #提交时显示所有diff信息
 
 git push #上传本地仓库到远程仓库
 
+#add locate project to remote git
+git init
+git add .
+git commit -m "add current folder[children folder]"
+git remote add origin git@github.com:qingyin/XX.git
+git push -u origin master

@@ -38,8 +38,9 @@ git push -u origin master
 #commit
 git commit -a -m "提交的描述信息"  #只将所有被修改或者已删除的且已经被git管理的文档提交倒仓库中
 
-
+#扩展链接
 Git常用命令清单 [http://blog.csdn.net/shimazhuge/article/details/52759429]
+
 Git认识 [http://blog.csdn.net/shimazhuge/article/details/52192967]
 
 
